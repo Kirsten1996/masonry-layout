@@ -9,47 +9,63 @@
   <link rel="stylesheet" href="./styles/normalize.css">
   <title>Masonry Design</title>
 </head>
-<body>
+<body id="body">
   <header class="banner" role="banner">
     <div class="container">
-     <h1>Masonry Design</h1>
+     <h1 id="heading">Masonry Design</h1>
     </div>
   </header>
-
+  <div id="textContainer">
+    <input type="text" placeholder="name" id="textInput">
+    <button id="btn">SEND</button>
+    <button id="textChange" type="reset">Text Change</button>
+  </div>
+  <div id="imageContainer">  
+    <input type="text" placeholder="image" id="imageInput">
+    <button type="submit" id="imageBtn">SUBMIT</button>
+  </div>
+  <div id="buttonContainer">
+    <button id="bg-color" type="reset">Background color</button>
+    <button id="bg-image" type="reset">Background image</button>
+  </div>
   <div class="boxes">
     <div class="container">
       <div class="gallery">
         <div class="item">
-          <img src="./images/cherry-plant.jpg" alt="cherry">
+          <img id="imageHoverOne" src="./images/cherry-plant.jpg" alt="cherry">
           </div> 
           <div class="item">
-            <img src="./images/oranges-pomegranates.jpg" alt="">
+            <img id="imageHoverTwo" src="./images/oranges-pomegranates.jpg" alt="">
           </div> 
           <div class="item">
-            <img src="./images/strawberry.jpg" alt="">
+            <img id="imageHoverThree" src="./images/strawberry.jpg" alt="">
           </div>
           <div class="item">
-            <img src="./images/blueberries.jpg" alt="">
+            <img id="imageHoverFour" src="./images/blueberries.jpg" alt="">
           </div>
           <div class="item">
-            <img src="./images/pears.jpg" alt="">
+            <img id="imageHoverFive" src="./images/pears.jpg" alt="">
           </div>
           <div class="item">
-            <img src="./images/easter-eggs.jpg" alt="">
+            <img id="imageHoverSix" src="./images/easter-eggs.jpg" alt="">
           </div>
           <div class="item">
-            <img src="./images/lemons.jpg" alt="">
+            <img id="imageHoverSeven" src="./images/lemons.jpg" alt="">
           </div>
           <div class="item">
-            <img src="./images/cherries.jpg" alt="">
+            <img id="imageHoverEight" src="./images/cherries.jpg" alt="">
           </div>
           <div class="item">
-            <img src="./images/grapes.jpg" alt="">
+            <img id="imageHoverNine" src="./images/grapes.jpg" alt="">
           </div>
       </div>
     </div>
   </div>
 
-
+<script src="./scripts/bg-color.js"></script>
+<script src="./scripts/bg-image.js"></script>
+<script src="./scripts/textchanger.js"></script>
+<script src="./scripts/hover.js"></script>
+<script src="./scripts/input.js"></script>
 </body>
 </html>
