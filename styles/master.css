@@ -54,4 +54,14 @@ column-count: 3;
   margin: 5px;
   break-inside: avoid;
 }
+#textContainer {
+  margin: 1em;
+}
 
+#imageContainer {
+  margin: 1em;
+}
+
+#buttonContainer {
+  margin: 1em;
+}
